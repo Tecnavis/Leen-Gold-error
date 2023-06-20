@@ -2,11 +2,11 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #999999;
+	color: #c9c9c9;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
-	color: #433b88;
+	color: #ff0038;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -62,7 +62,7 @@ p{
 	padding: 0;
 }
 .navbar-brand img{
-	max-height: 50px;
+	max-height: 100px;
 }
 .navbar-default .navbar-nav>li>a {
     font-family: 'Montserrat', sans-serif;
@@ -74,7 +74,7 @@ p{
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #e86c6c;
+	color: #1b1b1b;
 }
 .navbar-nav>li>a.btn-navbar:hover{
 	color: #fff;
@@ -170,7 +170,7 @@ header{
 	padding-bottom: 15px;
 }
 .feature-wiget h4, .feature-wiget i{
-	color: #433b88;
+	color: #ff0038;
 }
 .feature-wiget i{
 	font-size: 36px;
@@ -189,7 +189,7 @@ header{
 	top: 100%;
 	width: 35px;
 	height: 2px;
-	background-color: #0e153a;
+	background-color: #ff0038;
 	left: 0;
 	margin-top: 7px;
 	margin-bottom: 5px;
@@ -352,7 +352,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	color: #fff;
 }
 .logo-colored{
-	color: #e8617d;
+	color: #ff0038;
 }
 .footer-left-content{
 	margin-bottom: 50px;
@@ -371,14 +371,14 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	color: #fff;
 }
 .btn-violat,.gradient-violat {
-  background-image: -moz-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
-  background-image: -webkit-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
-  background-image: -ms-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
+  background-image: -moz-linear-gradient( 135deg, rgb(244,202,216) 0%, #c9c9c9 5%, #0b0b0b 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(244,202,216) 0%, #c9c9c9 5%, #0b0b0b 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(244,202,216) 0%, #c9c9c9 5%, #0b0b0b 100%);
 }
 .btn-orange,.gradient-orange {
-  background-image: -webkit-linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
-  background-image: -o-linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
-  background-image: linear-gradient(125deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
+  background-image: -webkit-linear-gradient(35deg, rgb(232,88,137) 0%, #ef355d 32%, #ff0038 100%);
+  background-image: -o-linear-gradient(35deg, rgb(232,88,137) 0%, #ef355d 32%, #ff0038 100%);
+  background-image: linear-gradient(35deg, rgb(232,88,137) 0%, #ef355d 32%, #ff0038 100%);
   box-shadow: 0px 8px 27px 0px rgba(116, 44, 69, 0.21);
 }
 
@@ -457,15 +457,15 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 .btn-video:hover{
 	text-decoration: none;
-	color: #e86c6c;
+	color: #ff0038;
 }
 .btn-video:hover .icon-rounded{
   border-color: #e86c6c;
   box-shadow: 0px 8px 27px 0px rgba(116, 44, 69, 0.21);
-  color: #e86c6c;
+  color: #ff0038;
 }
 .btn.gradient-orange:hover{
-	background-color: #e86c6c!important;
+	background-color: #ff0038!important;
 	background-image: none!important;
 }
 .btn-orange.active, .btn-orange:active{
@@ -624,9 +624,9 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 		padding: 2rem;
 	}
 	.navbar{
-	    background-image: -webkit-linear-gradient(305deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
-	    background-image: -o-linear-gradient(305deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
-	    background-image: linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
+	    background-image: -webkit-linear-gradient( 305deg, rgb(244,202,216) 0%, #c9c9c9 5%, #0b0b0b 100%);
+	    background-image: -o-linear-gradient( 305deg, rgb(244,202,216) 0%, #c9c9c9 5%, #0b0b0b 100%);
+	    background-image: linear-gradient( 305deg, rgb(244,202,216) 0%, #c9c9c9 5%, #0b0b0b 100%);
 	}
 	.navbar-divider{
 		display: none;
@@ -681,3 +681,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	position: absolute;
 	right: 0;
 }
+.bannerhome{
+	width: 100%;
+}
+/*** country code ***/
