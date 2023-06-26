@@ -17,8 +17,13 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel=”stylesheet” href=”build/css/intlTelInput.css”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+  />
+  
   </head>
   <body>
+    
     <header id="home" class="gradient-violat">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -359,10 +364,8 @@
                       <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
                       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                       <input id="exampleInputName"  class="form-control" type="text" minlength="10" maxlength="10" pattern="[0-9]{10}" required="" placeholder="Phone">
-                     
-                      <div class="form-group">
-                        <input type="text" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">
-                      </div>
+                      <textarea class="form-control" name="contact[custom_field][cf_message]" placeholder="Start typing your message..."></textarea>
+                      <input type="text" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">                   
                    
                     </div>
                     
@@ -457,5 +460,15 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+      const phoneInputField = document.querySelector("#mobile_code");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        separateDialCode: true,
+        initialCountry: "AE",
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+    </script>
   </body>
 </html>

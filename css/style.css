@@ -307,6 +307,18 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	margin-bottom: 25px;
 	margin-top: 25px;
 	height: 40px;
+	
+	
+}
+.form1{
+	border-radius: 50px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	height: 40px;
+	
+	
+	
+	
 }
 .newsletter{
 	background-color: #f1f6fa
@@ -684,4 +696,44 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 .bannerhome{
 	width: 100%;
 }
-/*** country code ***/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------*/
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 19px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #475F7B;
+    background-color: #FFF;
+    border: 1px solid #DFE3E7;
+    border-radius: .267rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #475F7B;
+    background-color: #FFF;
+    border-color: #5A8DEE;
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+.intl-tel-input,
+.iti{
+  width: 100%;
+}
