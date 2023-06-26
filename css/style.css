@@ -2,7 +2,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	background-color: rgb(24, 25, 24);
+	background-color:rgb(22, 52, 27);
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
@@ -35,7 +35,7 @@ p{
 	text-transform: uppercase;
 	font-weight: 600;
 	padding:12px 40px;
-	box-shadow: 0px 4px 10px 0px#e3bf0c;
+	box-shadow: 0px 4px 10px 0px#1d1c1a;
 	line-height: 1;
 	transition: all .3s ease;
 	letter-spacing: 2px;
@@ -78,10 +78,10 @@ p{
 	color: #d9c706;
 }
 .navbar-nav>li>a.btn-navbar:hover{
-	color: #0f0d0d;
+	color:rgb(237, 226, 11);
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #0a0a0a;
+    color: white;
     background-color: transparent;
 }
 .navbar-nav>li>a.btn-navbar{
@@ -310,7 +310,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	height: 40px;
 }
 .newsletter{
-	background-color: rgb(1, 65, 42);
+	background-color:rgb(22, 52, 27);
 }
 
 /*******************************************FOOTER***************************************************/
@@ -330,7 +330,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 .footer-end-line{
 	height: 25px;
-	background-color:  #e9cc11;
+	background-color:  rgb(22, 52, 27);
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -690,13 +690,3 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	width: 100%;
 }
 /*** country code ***/
-
-	.card {
-		
-		border: 1px solid #ccc;
-		border-radius: 5px;
-		padding: 20px;
-		background-color: rgb(12, 12, 12);
-		box-shadow: 0 2px 4px rgb(14, 13, 13);
-	  }
-	  
