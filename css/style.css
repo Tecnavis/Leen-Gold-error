@@ -78,7 +78,7 @@ p{
 	color: #d9c706;
 }
 .navbar-nav>li>a.btn-navbar:hover{
-	color:rgb(237, 226, 11);
+	color: #d9c706;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
