@@ -563,15 +563,14 @@
                   <form class="subscription-form">
                     <div class="form-group">
                       
-                      <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                      <input id="exampleInputName"  class="form-control" type="text" minlength="10" maxlength="10" pattern="[0-9]{10}" required="" placeholder="Phone">
-                      <textarea class="form-control" name="contact[custom_field][cf_message]" placeholder="Start typing your message..."></textarea>
-                      <input type="text" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">                   
-                   
+                      <input type="text" class="form-control" id="exampleInputName" placeholder="Name" required>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+                      <textarea class="form-control" name="contact[custom_field][cf_message]" style="height:200px ;" placeholder="Start typing your message..."></textarea>
+                      <input type="number" id="mobile_code" class="form-control" minlength="10" maxlength="10" pattern="[0-9]{10}" required="" placeholder="Phone Number" name="name">                   
+                      
                     </div>
-                    
-                    <a class="btn btn-orange border-none btn-rounded-corner" href="#">Subscribe  now<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+                    <br>
+                    <input type="submit" class="btn btn-orange border-none btn-rounded-corner" href="#"> <span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
                   </form>
                 </div>
               </div>
