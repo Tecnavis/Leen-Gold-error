@@ -6,7 +6,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
-	color: #bb8615 ;
+	color: #9b9b9e ;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -103,7 +103,7 @@ p{
 	display: none;
 }
 .cta{
-	color:;
+	/* color:; */
 }
 .cta-btn-group{
 	margin-top: 15px;
@@ -197,7 +197,7 @@ header{
 }
 /*******************************************CARD*****************************************************/
 .card{
-	box-shadow: 0px 4px 15px 0px rgba(210, 213, 11, 0.978);
+	box-shadow: 0px 2px 10px 0px rgba(243, 244, 237, 0.978);
 }
 .card-title{
 	color: #5a5a5a;
@@ -477,7 +477,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     border:0px;
     border-color: transparent;
 }
-/* .btn-violat.active, .btn-violat:active{ */
+.btn-violat.active, .btn-violat:active{
 	color: #fff;
 	background-image: -moz-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
@@ -486,10 +486,10 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     border-color: transparent;
 }
 .btn-violat:hover,.btn-white:hover{
-	background-image: -webkit-linear-gradient(35deg,  #bb8615 ) 0%, rgb( #bb8615 ) 32%, rgb( #bb8615 ) 100%);
+	background-image: -webkit-linear-gradient(35deg,  #bb8615 ) 0%, rgb( #bb8615 ) 32%, rgb( #bb8615 ) 100%;
     background-image: -o-linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
     background-image: linear-gradient(125deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
-    border:0px;
+    /* border: 0px; */
     border-color: transparent;
 }
 
@@ -690,3 +690,76 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	width: 100%;
 }
 /*** country code ***/
+
+	/* carousel testing */
+  /* .container1{
+		position: relative;
+		width: 320px;
+		margin: 100px auto 0 auto;
+		perspective: 1000px;
+	  }
+	  
+	  .carousel {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d; 
+		animation: rotate360 60s infinite forwards linear;
+	  }
+	  .carousel__face{ 
+		position: absolute;
+		width: 300px;
+		height: 187px;
+		top: 20px;
+		left: 10px;
+		right: 10px;
+		background-size: cover;
+		box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+		display: flex;
+	  }
+	  
+	  span {
+		margin: auto;
+		font-size: 2rem;
+	  }
+	  
+	  
+	  .carousel__face:nth-child(1) {
+		background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		transform: rotateY(  0deg) translateZ(430px); }
+	  .carousel__face:nth-child(2) { 
+		background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		  transform: rotateY( 40deg) translateZ(430px); }
+	  .carousel__face:nth-child(3) {
+		background-image: url("https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		transform: rotateY( 80deg) translateZ(430px); }
+	  .carousel__face:nth-child(4) {
+		background-image: url("https://images.pexels.com/photos/1394841/pexels-photo-1394841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		transform: rotateY(120deg) translateZ(430px); }
+	  .carousel__face:nth-child(5) { 
+		background-image: url("https://images.pexels.com/photos/969679/pexels-photo-969679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	   transform: rotateY(160deg) translateZ(430px); }
+	  .carousel__face:nth-child(6) { 
+		background-image: url("https://images.pexels.com/photos/1834400/pexels-photo-1834400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	   transform: rotateY(200deg) translateZ(430px); }
+	  .carousel__face:nth-child(7) { 
+		background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	   transform: rotateY(240deg) translateZ(430px); }
+	  .carousel__face:nth-child(8) {
+		background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		transform: rotateY(280deg) translateZ(430px); }
+	  .carousel__face:nth-child(9) {
+		background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		transform: rotateY(320deg) translateZ(430px); }
+	  
+	  
+	  
+	  @keyframes rotate360 {
+		from {
+		  transform: rotateY(0deg);
+		}
+		to {
+		  transform: rotateY(-360deg);
+		}
+	  }
+	    */
