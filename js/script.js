@@ -90,3 +90,32 @@ $("#mobile_code").intlTelInput({
 	separateDialCode: true,
 	
 });
+
+//----SUBMIT BUTTON
+// Add an event listener to the form submission
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+	e.preventDefault(); // Prevent the default form submission
+  
+	// Get the form values
+	var name = document.getElementById('name').value;
+	var email = document.getElementById('email').value;
+	var phone = document.getElementById('phone').value;
+	var service = document.getElementById('service').value;
+	var messageContent = document.getElementById('message').value;
+  
+	// Construct the WhatsApp message
+	var message = "Name: " + name + "\n";
+	message += "Email: " + email+ "\n";
+	message += "Phone Number: " + phone+ "\n";
+	message += "Service Requestig: " + service+ "\n";
+	message += "Message: " + messageContent;
+  
+	// Open WhatsApp in a new window or tab with the message
+	window.open("https://wa.me/916282414031?text=" + encodeURIComponent(message), "_blank");
+  });
+  $(document).ready(function(){
+	$('.carousel').carousel({
+	  padding:800,
+	  dist:-200        
+	});
+  });
